@@ -23,6 +23,7 @@ public final class StreamConverter extends PersonConversionAgent<Stream<Person>>
                 .limit(collectionSize));
     }
 
+
     // TODO
     public List<Person> toList() {
         return personList;
